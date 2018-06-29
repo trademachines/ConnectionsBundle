@@ -2,6 +2,8 @@ language: php
 php:
   - 5.5
   - 7.0
+  - 7.1
+  - 7.2
 before_install:
   - curl -O https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.6.deb && sudo dpkg -i --force-confnew elasticsearch-1.7.6.deb && sudo service elasticsearch restart
   # SQL settings
